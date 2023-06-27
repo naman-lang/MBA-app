@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span >MovieBookingApp</span>
+    <span class="spacer"></span>
+    <button mat-button routerLink="/movies">Home(movies)</button>
+    <button mat-button *ngIf="isAdmin" routerLink="/addmovie">Add Movie</button>
+    <button mat-button routerLink="/viewtickets">view-transactions</button>
+    <button mat-button *ngIf="isAdmin" routerLink="/userlist">user-list</button>
+    <span class="username-icon">
+      <mat-icon>person</mat-icon>
+      <span style="font-size: 15px;margin-top: 8px;" >{{ username }}</span>
+    </span>
+    <button mat-button (click)="logout()">Logout</button>
+  </mat-toolbar-row>
+</mat-toolbar>

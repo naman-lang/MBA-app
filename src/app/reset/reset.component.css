@@ -1,0 +1,79 @@
+.forgot-password-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #dad5d5, #bddef5);
+}
+mat-card {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+mat-card-header {
+  display: block;
+  padding: 50px;
+  text-align: center;
+}
+mat-form-field {
+  padding: 5px;
+  width: 100%;
+}
+.message {
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+}
+.mat-form-field {
+  width: 100%;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.mat-form-field {
+  width: 100%;
+  padding: 5px;
+}
+
+.mat-card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.toggle-icon {
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.links {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links a {
+  color: #3f51b5;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}

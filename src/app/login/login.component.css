@@ -1,0 +1,62 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #cfbebe, #599dce);/*fix me*/
+}
+/* 
+.mat-mdc-card {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+} */
+mat-card {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+mat-card-header {
+  display: block;
+  padding: 50px;
+  text-align: center;
+}
+.message {
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+}
+.toggle-icon {
+  cursor: pointer;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.links {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links a {
+  color: #3f51b5;
+  text-decoration: none;
+}
+
